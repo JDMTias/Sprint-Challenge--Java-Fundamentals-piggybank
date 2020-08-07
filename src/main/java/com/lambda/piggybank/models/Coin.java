@@ -9,7 +9,6 @@ public class Coin {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long coinid;
-
     private String name;
     private String nameplural;
     private double value;
