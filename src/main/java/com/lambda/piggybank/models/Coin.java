@@ -52,7 +52,7 @@ public class Coin {
         this.value = value;
     }
 
-    public double getQuantity() {
+    public int getQuantity() {
         return quantity;
     }
 
