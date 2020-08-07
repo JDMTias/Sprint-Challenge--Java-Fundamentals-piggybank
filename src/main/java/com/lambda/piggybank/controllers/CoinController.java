@@ -40,8 +40,11 @@ public class CoinController {
         for (Coin coin : coinList) {
             System.out.println(coin.getQuantity() + " " + checkPlural(coin));
         }
-        DecimalFormat df = new DecimalFormat("###.###");
-        System.out.print("The piggy bank holds $" + (df.format(getTotal())));
+//        DecimalFormat df = new DecimalFormat("###.###");
+//        System.out.print("The piggy bank holds $" + (df.format(getTotal())));
+        System.out.print("\n piggy bank holds $" + (getTotal()));
+
+
         return new ResponseEntity<>(HttpStatus.OK);
 
     }
