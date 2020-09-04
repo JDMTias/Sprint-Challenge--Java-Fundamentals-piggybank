@@ -23,10 +23,17 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
-2. Explain the three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
+    The main aim of OOP(Object Oriented Programming) is to bind together the data and the functions that operate on
+     them so that no other  part of the code can access this data except that function. so we
+      added the methods in the Coin,
+    2. Explain the three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
+Compiling  (javac) , Creating a JAR then RUNNING the .jar file.
 3. Explain how Java being a strongly typed language affected you solution.
+ 	its javas way or the highway. It won't allow you to move forward until things are correct, but I like that. 
 4. Can you explain the differences between Abstract Classes and Interfaces including how they are used in your application?
-
+With interfaces you can allow classes to extend multiple, but with Abstract classes, classes can only be subset
+ classes of the abstract class. I just used an interface in the repo, I didn't use abstract classes, since the read me
+  didn't specify I had to use one.
 ## Instructions
 
 ### Task 1: Project Set Up
