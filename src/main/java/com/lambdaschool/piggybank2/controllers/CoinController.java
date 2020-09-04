@@ -28,7 +28,7 @@ public class CoinController {
         for (Coin coin : coinList){
             total += coin.getQuantity() * coin.getValue();
         }
-        return total
+        return total;
     }
 
     @Autowired
